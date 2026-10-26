@@ -1,0 +1,17 @@
+{
+  "skills": "~/claude-config/skills",
+  "claude_md": "~/claude-config/CLAUDE.md",
+  "machine_md": "~/claude-config/machines/mon-ordi.md",
+  "mods": "~/claude-config/mods",
+  "etat": "~/.local/state/claude-provision",
+  "memoire": "~/claude-config/memoire",
+  "plafond_skills": 200000,
+  "exclus": [".claude-comptes-de-test"],
+  "isoles": [
+    {
+      "dossier": "travail",
+      "courriel": "@employeur.example",
+      "claude_md": "~/claude-config/CLAUDE.travail.md"
+    }
+  ]
+}
