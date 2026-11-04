@@ -61,7 +61,7 @@ Relative paths are relative to the config file. `~` and `$VARS` are expanded.
 - **`settings.json` is merged, never replaced**: only `env.CLAUDE_CODE_PLUGIN_DIRS`, optionally
   `env.SLASH_COMMAND_TOOL_CHAR_BUDGET` and `autoMemoryDirectory` are set; a backup is made before the first change.
   Plugin directories that are *not* inside your mods folder are kept.
-- **The skills budget.** By default Claude Code lists skills within about 1 % of the context window and drops the
+- **The skills budget.** By default Claude Code lists skills within about 1% of the context window and drops the
   descriptions of the least used ones when there are many, so it can no longer pick them. `plafond_skills` raises
   that budget to a fixed number of characters.
 - **Isolated accounts.** An account provided by an employer should not see your personal rules or memory. An entry of
