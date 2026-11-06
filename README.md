@@ -82,3 +82,7 @@ python3 -m unittest discover -s tests -v     # runs in a throw-away HOME, touche
 - Code (`provisionner.py`, tests): [Apache License 2.0](LICENSE), see [NOTICE](NOTICE).
 - Rules templates, machine example, documentation: [Creative Commons Attribution 4.0](LICENSE-docs).
 - No third-party code is included.
+
+---
+
+**Anthony Hunt** · [Project page on ingevision.cloud](https://ingevision.cloud/?lang=en&p=outils-claude-code) · [LinkedIn](https://www.linkedin.com/in/anthony-hunt-3948a9196) · [GitHub profile](https://github.com/anthohunt)
